@@ -8,7 +8,8 @@ Simple Android sample application for learning purposes. Contains example of:
 
 > Consumes API: http://restcountries.eu/
 
-> Images can be obtein from: http://www.geonames.org/flags/x/ + countryCode + .gif
+
+> Images can be obteined from: http://www.geonames.org/flags/x/ + countryCode + .gif
 
 **Open Source Libraries**
 
