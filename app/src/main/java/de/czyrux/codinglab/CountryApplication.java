@@ -13,7 +13,7 @@ public class CountryApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        repository = RestCountryRepositoryFactory.createCountryService();
+        repository = RestCountryRepositoryFactory.create();
     }
 
     public CountryRepository getCountryRepository() {

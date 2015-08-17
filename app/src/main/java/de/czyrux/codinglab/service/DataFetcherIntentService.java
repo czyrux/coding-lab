@@ -4,7 +4,6 @@ import android.app.IntentService;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v4.content.LocalBroadcastManager;
-import android.util.Log;
 
 import java.util.ArrayList;
 
@@ -24,7 +23,6 @@ public class DataFetcherIntentService extends IntentService {
         return serviceIntent;
     }
 
-
     public DataFetcherIntentService() {
         super("DataFetcherIntentService");
     }
@@ -32,7 +30,6 @@ public class DataFetcherIntentService extends IntentService {
     @Override
     protected void onHandleIntent(Intent intent) {
         CountryRepository repository = ((CountryApplication) getApplication()).getCountryRepository();
-        Log.e("DataFetcher", "go go");
 
         ArrayList<Country> countryList = new ArrayList<>(repository.getAllCountries());
 

@@ -7,7 +7,7 @@ public class RestCountryRepositoryFactory {
 
     private static final String API_URL = "http://restcountries.eu/rest/v1";
 
-    public static CountryRepository createCountryService() {
+    public static CountryRepository create() {
 
         RestAdapter restAdapter = new RestAdapter.Builder()
                 .setEndpoint(API_URL)
