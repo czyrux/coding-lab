@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- General Styles -->
+
+    <style name="txtLarge" parent="@android:style/TextAppearance.Large">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="txtMedium" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="txtSmall" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <!-- List -->
+
+    <style name="listTextTitle" parent="@style/txtMedium">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="listText" parent="@style/txtSmall">
+    </style>
+
+</resources>

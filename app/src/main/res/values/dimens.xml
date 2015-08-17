@@ -1,0 +1,3 @@
+<resources>
+    <dimen name="country_list_padding">8dp</dimen>
+</resources>

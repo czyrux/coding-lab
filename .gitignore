@@ -1,3 +1,10 @@
+# Intellj
+/.idea/
+*.iml
+
+# Mac OsX
+.DS_Store
+
 # Built application files
 *.apk
 *.ap_
@@ -14,6 +21,7 @@ gen/
 
 # Gradle files
 .gradle/
+gradle/
 build/
 /*/build/
 
